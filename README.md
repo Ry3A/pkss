@@ -53,14 +53,24 @@ journey
 **Диаграмма квадрант-граф**
 ```mermaid
 quadrantChart
-    title Функциональности приложения "DnD помощник"
-    x-axis: Легкость реализации --> Высокая сложность
-    y-axis: Низкая важность --> Высокая важность
-    "Автоматизация расчетов" [0.7, 0.9]
-    "Управление кампаниями" [0.8, 0.8]
-    "Библиотека заклинаний" [0.6, 0.7]
-    "Мобильное приложение" [0.9, 0.6]
-    "Генерация персонажей" [0.4, 0.8]
+    title Development Priorities
+    x-axis Low Priority --> High Priority
+    y-axis Low Complexity --> High Complexity
+    quadrant-1 High Priority
+    quadrant-2 Requires Analysis
+    quadrant-3 Re-evaluate
+    quadrant-4 Can Be Improved
+    Authorization and Profile Management: [0.3, 0.7]
+    Character Creation: [0.8, 0.4]
+    Spell Library: [0.7, 0.6]
+    Campaign Management: [0.8, 0.8]
+    Automated Calculations: [0.6, 0.9]
+    Inventory Management: [0.5, 0.5]
+    Random Event Generator: [0.4, 0.4]
+    Mobile Compatibility: [0.9, 0.6]
+    Integration with Discord: [0.7, 0.3]
+    Advanced NPC Customization: [0.4, 0.8]
+
 ```
 Диаграмма описывает важность разработки тех или иных функций на основе приоритета и сложности реализации.
 **Диаграмма git graph**
